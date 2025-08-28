@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <div class="container">
@@ -20,15 +22,22 @@
                 <p id="numbers">0/0</p>
             </div>
         </div>
+        
 
         <form>
             <input id="add_task" type="text" placeholder="Write Your Task">
+            <input id="task_time" type="time" placeholder="Add Time">
             <button id="new_task" type="submit">+</button>
         </form>
 
         <ul class="task_list"></ul>
     </div>
-     <div id="complete_message">🎉 All Tasks Completed! 🎉</div>
+     <div id="complete_message" class="celebrate" style="display:none;">
+    🎉 All tasks completed! You did amazing! 🎉
+</div>
+
     <script src="To_Do_list.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
 </body>
 </html>
