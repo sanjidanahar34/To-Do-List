@@ -274,7 +274,7 @@ button {
     height: 50px;
 }
      #add_task::placeholder {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 #task_time {
@@ -284,7 +284,7 @@ button {
      font-size: 14px;
 }
      #add_time {
-        font-size: 12px;
+        font-size: 14px;
     }
     button {
         width: 50px;
@@ -354,6 +354,7 @@ button {
         text-align: center;
     }
 }
+
 
 
 
