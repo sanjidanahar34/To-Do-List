@@ -254,6 +254,8 @@ button {
     100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
 }
 @media screen and (max-width: 600px) {
+    body{
+        font-size:14px;}
     .container {
         max-width: 95%;
         margin: 60px auto 0 auto;
@@ -270,7 +272,7 @@ button {
     #add_task {
     flex: 2;   
     min-width: 150px;
-    font-size: 12px;
+    font-size: 14px;
     height: 50px;
 }
      #add_task::placeholder {
@@ -353,7 +355,18 @@ button {
         line-height: 1.4;
         text-align: center;
     }
+     .reminderMessage {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        width: auto;
+        font-size: 14px;
+        padding: 8px 12px;
+        text-align: center;
+    }
+
 }
+
 
 
 
